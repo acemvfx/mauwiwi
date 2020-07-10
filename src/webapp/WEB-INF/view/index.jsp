@@ -32,7 +32,7 @@
         <hr>
 		<table align= "Center" style="font-family: Calibri, Garamond, Serif; ">
 			<tr>
-			<td colspan=125><img src="./images/Mentoring_Male_Female4.jpg" height=200 width=200></td>
+			<td colspan=125><img src="./images/Mentoring_Male_Female4.jpg" height=201 width=200></td>
 				<td valign="center">
 					<table align= "center">
 						<tr><td>Request File :</td><td><input type="file" name="file" dir="ltr"/></td></tr>
