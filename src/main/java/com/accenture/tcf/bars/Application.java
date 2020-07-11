@@ -15,7 +15,7 @@ public class Application {
 		
 		String jdbcUrl = "jdbc:mysql://localhost:3306/bars_db?useSSL=false&serverTimezone=UTC";
 		String user = "root";
-		String pass = "8888";
+		String pass = "admin";
 		
 		try {
 			System.out.println("Connecting to database: " + jdbcUrl);
@@ -24,6 +24,8 @@ public class Application {
 					DriverManager.getConnection(jdbcUrl, user, pass);
 			
 			System.out.println(myConn);
+			System.out.println(user);
+			System.out.println(pass);
 		}
 	
 		catch (Exception exc) {
